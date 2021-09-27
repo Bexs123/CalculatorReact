@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import './App.css';
 import ResultComponent from './component/ResultComponent';
 import KeyPadComponent from "./component/KeyPadComponent";
@@ -31,7 +31,6 @@ class App extends Component {
             })
         }
     };
-
 
     calculate = () => {
         var checkResult = ''
